@@ -6,6 +6,6 @@ orig = "Roma, Italia"
 dest = "Frascati, Italia"
 key = "fuE0mxdCk4xgLGNyjO516dR6MyuTPX5r"
 
-url = main_api + urllib.parse.urlencode({"key":key, "from":orig, "to":dest})
+url = main_api + urllib.parse.urlencode({"key":key, "from":orig, "to":dest})!
 json_data = requests.get(url).json()
 print(json_data)
